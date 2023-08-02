@@ -1,0 +1,58 @@
+@media (max-width:850px) {
+    .header .nav_bar #menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        transform:  translateY(-100%) ;
+        transition: 0.5s; 
+        font-size: 15px;
+        padding: 25px;
+        background-color:#1E1E1E ;
+
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+
+        
+    }
+    .header .nav_bar .list{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header .nav_bar .nav_but{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header .nav_bar  #menu_btn:checked~#menu{
+        transform:  translateY(0%) ;
+    }
+
+    .header .nav_bar  .before{
+        display: block;
+    }
+
+    .header .header_content .log_box{
+        padding: 25px;
+        gap: 15px;
+    }
+    .header .header_content .log_box .log_box_title {
+        font-size: 25px;
+
+    }
+    .header .header_content .log_box .sign_google{
+        font-size: 15px;
+    }
+    .header .header_content .log_box .sign_email{
+        font-size: 15px;
+    }
+    .header .header_content .log_box .input_box .input_title{
+        font-size: 15px;
+    }
+    .header .header_content {
+        padding: 140px 25px;
+    }
+}
